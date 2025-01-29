@@ -15,9 +15,9 @@ export default async function Home() {
   return <Users users={users} />;
 }
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata() {
   return {
-    title: "next-ssg",
+    title: "next-js-practice",
     description: "A Next.js starter with Server-Side Generation",
     openGraph: {
       title: "next-ssg",
