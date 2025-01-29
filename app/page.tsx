@@ -20,11 +20,11 @@ export async function generateMetadata() {
     title: "next-js-practice",
     description: "A Next.js starter with Server-Side Generation",
     openGraph: {
-      title: "next-ssg",
+      title: "next-js-practice",
       description: "A Next.js starter with Server-Side Generation",
       type: "website",
-      url: "https://next-ssg.vercel.app",
-      image: "https://next-ssg.vercel.app/og-image.png",
+      url: "https://next-js-practice-two-alpha.vercel.app",
+      image: "https://next-js-practice-two-alpha.vercel.app/og.png",
     },
   };
 }
