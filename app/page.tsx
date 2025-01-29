@@ -24,7 +24,14 @@ export async function generateMetadata() {
       description: "A Next.js starter with Server-Side Generation",
       type: "website",
       url: "https://next-js-practice-two-alpha.vercel.app",
-      image: "https://next-js-practice-two-alpha.vercel.app/og.png",
+      images: [
+        {
+          url: "https://next-js-practice-two-alpha.vercel.app/og.png",
+          width: 1200,
+          height: 630,
+          alt: "Next.js Practice Open Graph Image",
+        },
+      ],
     },
   };
 }
